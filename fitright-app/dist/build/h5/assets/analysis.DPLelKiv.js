@@ -1,0 +1,1 @@
+import{r as s,u as a}from"./request.9yn2dwFb.js";const e=(s,e,r)=>a({url:"/analysis/upload",filePath:s,name:"video",formData:e?{exercise_type:e}:{},onProgress:r}),r=a=>s({url:`/analysis/${a}`});export{r as g,e as u};

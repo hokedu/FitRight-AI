@@ -1,0 +1,1 @@
+import{r,u as a}from"./request.9yn2dwFb.js";const e=r=>a({url:"/posture/upload-image",filePath:r,name:"file"}),s=async(a,s,u)=>{const[l,t,o]=await Promise.all([e(a),e(s),e(u)]);return r({url:"/posture/assess",method:"POST",data:{front_image_url:l.url,side_image_url:t.url,back_image_url:o.url}})},u=a=>r({url:`/posture/${a}`});export{u as g,s as u};

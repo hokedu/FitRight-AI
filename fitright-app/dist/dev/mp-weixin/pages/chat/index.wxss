@@ -1,0 +1,207 @@
+/* 全局 SCSS 变量 */
+/* 主题色 */
+/* 功能色 */
+/* 中性色 */
+/* 圆角 */
+/* 间距 */
+.page.data-v-da04a0a0 {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: #f5f5f5;
+}
+.header.data-v-da04a0a0 {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+  padding: 0 32rpx;
+  padding-top: calc(var(--status-bar-height, 44px) + 20rpx);
+  padding-bottom: 32rpx;
+  flex-shrink: 0;
+}
+.header-content.data-v-da04a0a0 {
+  padding-top: 16rpx;
+}
+.header-icon.data-v-da04a0a0 {
+  font-size: 36rpx;
+}
+.header-title.data-v-da04a0a0 {
+  font-size: 40rpx;
+  font-weight: bold;
+  color: #ffffff;
+  display: block;
+  margin-top: 4rpx;
+}
+.header-subtitle.data-v-da04a0a0 {
+  font-size: 24rpx;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 4rpx;
+  display: block;
+}
+.chat-area.data-v-da04a0a0 {
+  flex: 1;
+  padding: 24rpx 32rpx;
+  overflow-y: auto;
+}
+.quick-start.data-v-da04a0a0 {
+  margin-bottom: 32rpx;
+}
+.quick-title.data-v-da04a0a0 {
+  font-size: 28rpx;
+  color: #6B7280;
+  display: block;
+  margin-bottom: 16rpx;
+}
+.quick-cards.data-v-da04a0a0 {
+  display: flex;
+  flex-direction: column;
+  gap: 16rpx;
+}
+.quick-card.data-v-da04a0a0 {
+  background: #ffffff;
+  border-radius: 16rpx;
+  padding: 24rpx;
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+}
+.quick-card-icon.data-v-da04a0a0 {
+  font-size: 32rpx;
+}
+.quick-card-text.data-v-da04a0a0 {
+  font-size: 28rpx;
+  color: #1F2937;
+  font-weight: 500;
+}
+.messages.data-v-da04a0a0 {
+  display: flex;
+  flex-direction: column;
+  gap: 24rpx;
+}
+.message-item.data-v-da04a0a0 {
+  display: flex;
+  gap: 16rpx;
+}
+.msg-user.data-v-da04a0a0 {
+  justify-content: flex-end;
+}
+.msg-avatar.data-v-da04a0a0 {
+  width: 64rpx;
+  height: 64rpx;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  font-size: 22rpx;
+  font-weight: bold;
+}
+.ai-avatar.data-v-da04a0a0 {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+  color: #ffffff;
+}
+.msg-bubble.data-v-da04a0a0 {
+  max-width: 80%;
+  padding: 20rpx 24rpx;
+  border-radius: 20rpx;
+  font-size: 28rpx;
+  line-height: 1.6;
+}
+.bubble-assistant.data-v-da04a0a0 {
+  background: #ffffff;
+  color: #1F2937;
+  border-top-left-radius: 6rpx;
+  box-shadow: 0 2rpx 8rpx rgba(0, 0, 0, 0.04);
+}
+.bubble-user.data-v-da04a0a0 {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+  color: #ffffff;
+  border-top-right-radius: 6rpx;
+}
+.ai-label.data-v-da04a0a0 {
+  display: flex;
+  align-items: center;
+  gap: 8rpx;
+  margin-bottom: 8rpx;
+}
+.ai-label-icon.data-v-da04a0a0 {
+  font-size: 24rpx;
+}
+.ai-label-text.data-v-da04a0a0 {
+  font-size: 22rpx;
+  color: #8B5CF6;
+  font-weight: 500;
+}
+.msg-text.data-v-da04a0a0 {
+  font-size: 28rpx;
+  line-height: 1.7;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
+.typing-indicator.data-v-da04a0a0 {
+  display: flex;
+  gap: 8rpx;
+  padding: 8rpx 0;
+}
+.typing-dot.data-v-da04a0a0 {
+  width: 12rpx;
+  height: 12rpx;
+  border-radius: 50%;
+  background: #9CA3AF;
+  animation: bounce-da04a0a0 1.4s ease-in-out infinite;
+}
+.typing-dot.data-v-da04a0a0:nth-child(2) {
+  animation-delay: 0.2s;
+}
+.typing-dot.data-v-da04a0a0:nth-child(3) {
+  animation-delay: 0.4s;
+}
+@keyframes bounce-da04a0a0 {
+0%, 80%, 100% {
+    transform: translateY(0);
+}
+40% {
+    transform: translateY(-8rpx);
+}
+}
+.scroll-anchor.data-v-da04a0a0 {
+  height: 20rpx;
+}
+.input-area.data-v-da04a0a0 {
+  flex-shrink: 0;
+  padding: 16rpx 32rpx;
+  padding-bottom: calc(16rpx + env(safe-area-inset-bottom, 0px));
+  background: #ffffff;
+  box-shadow: 0 -2rpx 12rpx rgba(0, 0, 0, 0.06);
+}
+.input-wrap.data-v-da04a0a0 {
+  display: flex;
+  align-items: center;
+  gap: 16rpx;
+  background: #F3F4F6;
+  border-radius: 44rpx;
+  padding: 8rpx 8rpx 8rpx 28rpx;
+}
+.chat-input.data-v-da04a0a0 {
+  flex: 1;
+  height: 72rpx;
+  font-size: 28rpx;
+  background: transparent;
+}
+.send-btn.data-v-da04a0a0 {
+  width: 72rpx;
+  height: 72rpx;
+  border-radius: 50%;
+  background: #E5E7EB;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  transition: background 0.2s;
+}
+.send-active.data-v-da04a0a0 {
+  background: linear-gradient(135deg, #8B5CF6, #6D28D9);
+}
+.send-icon.data-v-da04a0a0 {
+  font-size: 32rpx;
+  color: #ffffff;
+}

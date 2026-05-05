@@ -1,0 +1,94 @@
+{
+  "pages": [
+    {
+      "path": "pages/home/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/chat/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/profile/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/exercise-analysis/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/exercise-analysis/result",
+      "style": {
+        "navigationBarTitleText": "分析结果",
+        "navigationBarBackgroundColor": "#4A90D9",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/posture-assessment/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    },
+    {
+      "path": "pages/posture-assessment/result",
+      "style": {
+        "navigationBarTitleText": "评估结果",
+        "navigationBarBackgroundColor": "#4A90D9",
+        "navigationBarTextStyle": "white"
+      }
+    },
+    {
+      "path": "pages/login/index",
+      "style": {
+        "navigationStyle": "custom",
+        "navigationBarTitleText": ""
+      }
+    }
+  ],
+  "tabBar": {
+    "color": "#999999",
+    "selectedColor": "#4A90D9",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/home/index",
+        "text": "AI纠错",
+        "iconPath": "static/icons/tab-correct.png",
+        "selectedIconPath": "static/icons/tab-correct-active.png"
+      },
+      {
+        "pagePath": "pages/chat/index",
+        "text": "AI对话",
+        "iconPath": "static/icons/tab-chat.png",
+        "selectedIconPath": "static/icons/tab-chat-active.png"
+      },
+      {
+        "pagePath": "pages/profile/index",
+        "text": "我的",
+        "iconPath": "static/icons/tab-profile.png",
+        "selectedIconPath": "static/icons/tab-profile-active.png"
+      }
+    ]
+  },
+  "globalStyle": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "FitRight AI",
+    "navigationBarBackgroundColor": "#ffffff",
+    "backgroundColor": "#f5f5f5"
+  }
+}
